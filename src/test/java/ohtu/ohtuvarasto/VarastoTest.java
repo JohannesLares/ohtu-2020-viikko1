@@ -111,7 +111,7 @@ public class VarastoTest {
     @Test
     public void ottaminenAlleNolla() {
     	varasto.lisaaVarastoon(5);
-    	assertEquals(1.0, varasto.otaVarastosta(-2), vertailuTarkkuus);
+    	assertEquals(0.0, varasto.otaVarastosta(-2), vertailuTarkkuus);
     }
     
     @Test
