@@ -31,7 +31,7 @@ public class Varasto {
     }
 
     public double getTilavuus() {
-        return tilavuus;
+            return tilavuus;
     }
 
     public double paljonkoMahtuu() {  // huom: ominaisuus voidaan my�s laskea
